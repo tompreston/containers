@@ -6,8 +6,8 @@ ENV WEECHAT_HOME /weechat
 
 RUN apk update && apk add \
 	aspell-en \
-	weechat-aspell \
-	openssl
+	openssl \
+	weechat-aspell
 
 VOLUME $WEECHAT_HOME
 
